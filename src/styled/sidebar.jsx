@@ -68,7 +68,7 @@ const Steps = styled.div`
     text-align: center;
 
     h2{
-        color: white;
+        color: #fcfcfc;
         height: 100%;
         display: flex;
         align-items: center;
