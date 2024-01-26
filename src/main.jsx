@@ -18,23 +18,23 @@ const router = createBrowserRouter([
     element: <App/>,
     children: [
       {
-        path: "/ryiiianqueiroz.github.io",
+        path: "/",
         element: <Step1/>
       },
       {
-        path: "/ryiiianqueiroz.github.io/step2",
+        path: "step2",
         element: <Step2/>
       },
       {
-        path: "/ryiiianqueiroz.github.io/step3",
+        path: "step3",
         element: <Step3/>
       },
       {
-        path: "/ryiiianqueiroz.github.io/step4",
+        path: "step4",
         element: <Step4/>
       },
       {
-        path: "/ryiiianqueiroz.github.io/step5",
+        path: "step5",
         element: <Step5/>
       }
     ]
