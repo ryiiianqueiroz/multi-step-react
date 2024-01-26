@@ -159,7 +159,7 @@ function Step1 () {
                 </form>
                 
                 <div className="next-step" id="next-step1">
-                    <Link to={next ? "/step2" : "/"} onClick={() => nextStepValidation()}><Button>Next Step</Button></Link>
+                    <Link to={next ? "/multi-step-react/step2" : "/multi-step-react/"} onClick={() => nextStepValidation()}><Button>Next Step</Button></Link>
                 </div>
             </div>
         </>

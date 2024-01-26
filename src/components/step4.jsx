@@ -215,9 +215,9 @@ function Step4() {
                 </div>
 
                 <div className="next-step">
-                    <Link to="/step3"><GoBack>Go Back</GoBack></Link>
+                    <Link to="/multi-step-react/step3"><GoBack>Go Back</GoBack></Link>
 
-                    <Link to="/step5"><Button>Confirm</Button></Link>
+                    <Link to="/multi-step-react/step5"><Button>Confirm</Button></Link>
                 </div>
             </div>
         </>
