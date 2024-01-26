@@ -14,7 +14,7 @@ import App from './App'
 
 const router = createBrowserRouter([
   {
-    path: "/ryiiianqueiroz.github.io",
+    path: "/multi-step-react",
     element: <App/>,
     children: [
       {
