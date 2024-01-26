@@ -14,27 +14,27 @@ import App from './App'
 
 const router = createBrowserRouter([
   {
-    path: "/multi-step-react",
+    path: "/multi-step-react/",
     element: <App/>,
     children: [
       {
-        path: "/",
+        path: "/multi-step-react/",
         element: <Step1/>
       },
       {
-        path: "step2",
+        path: "/multi-step-react/step2",
         element: <Step2/>
       },
       {
-        path: "step3",
+        path: "/multi-step-react/step3",
         element: <Step3/>
       },
       {
-        path: "step4",
+        path: "/multi-step-react/step4",
         element: <Step4/>
       },
       {
-        path: "step5",
+        path: "/multi-step-react/step5",
         element: <Step5/>
       }
     ]
