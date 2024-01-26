@@ -14,27 +14,27 @@ import App from './App'
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/ryiiianqueiroz.github.io",
     element: <App/>,
     children: [
       {
-        path: "/",
+        path: "/ryiiianqueiroz.github.io",
         element: <Step1/>
       },
       {
-        path: "step2",
+        path: "/ryiiianqueiroz.github.io/step2",
         element: <Step2/>
       },
       {
-        path: "step3",
+        path: "/ryiiianqueiroz.github.io/step3",
         element: <Step3/>
       },
       {
-        path: "step4",
+        path: "/ryiiianqueiroz.github.io/step4",
         element: <Step4/>
       },
       {
-        path: "step5",
+        path: "/ryiiianqueiroz.github.io/step5",
         element: <Step5/>
       }
     ]
